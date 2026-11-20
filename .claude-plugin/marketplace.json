@@ -1,0 +1,21 @@
+{
+  "name": "beo4-skills",
+  "owner": {
+    "name": "Christoph Behounek"
+  },
+  "metadata": {
+    "description": "Skills von beo4",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "german-business-writing",
+      "description": "Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem Deutsch ohne Floskeln und ohne KI-Muster.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/german-plain-business-writing"
+      ]
+    }
+  ]
+}
