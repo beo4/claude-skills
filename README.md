@@ -6,11 +6,14 @@ Skills für Claude.
 
 Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem Deutsch
 ohne Floskeln und ohne KI-Muster: Strategie-Dokumente, Business-Modelle,
-BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails.
+BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails sowie
+Fachartikel und Erfahrungsberichte für Fachmagazine.
 
 Die Regeln stützen sich auf die deutsche Stilkunde (Wolf Schneider), das
-Hamburger Verständlichkeitsmodell und die Normen für Einfache Sprache
-(DIN ISO 24495-1, DIN 8581-1).
+Hamburger Verständlichkeitsmodell, den Hohenheimer Verständlichkeitsindex, die
+Normen für Einfache Sprache (DIN ISO 24495-1, DIN 8581-1), Lehrbücher des
+praktischen Journalismus und öffentliche Regelsammlungen gegen KI-Stil.
+Quellen und Lizenzen: [`QUELLEN.md`](skills/german-plain-business-writing/QUELLEN.md).
 
 ## Installation
 

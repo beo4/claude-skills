@@ -3,10 +3,11 @@ name: german-plain-business-writing
 description: >
   Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem
   Deutsch ohne Floskeln und ohne KI-Muster: Strategie, Business-Modelle,
-  BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails.
-  Verwenden, wenn ein deutscher Business-Text geschrieben, gekürzt oder auf
-  Bla-bla, Widersprüche und KI-Stil geprüft werden soll, auch wenn der Skill
-  nicht genannt wird.
+  BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails sowie
+  Fachartikel und Erfahrungsberichte für Fachmagazine. Verwenden, wenn ein
+  deutscher Business- oder Fachtext geschrieben, gekürzt oder auf Bla-bla,
+  Widersprüche und KI-Stil geprüft werden soll, auch wenn der Skill nicht
+  genannt wird.
 ---
 
 # Klares Geschäftsdeutsch
@@ -15,8 +16,8 @@ description: >
 
 Der Skill schreibt und überarbeitet deutsche Geschäftstexte: Strategie- und
 Portfolio-Dokumente, Business-Modelle, Canvases, ICPs, Entscheidungsvorlagen,
-Website- und Vertriebstexte, E-Mails an Kunden und Kollegen sowie technische
-Dokumentation für den Betrieb.
+Website- und Vertriebstexte, E-Mails an Kunden und Kollegen, technische
+Dokumentation für den Betrieb und Fachartikel für Fachmagazine.
 
 Maßstab ist ein Leser, der fachlich mitdenkt und wenig Zeit hat. Er soll den
 Text beim ersten Lesen verstehen, ihm glauben können und wissen, was daraus
@@ -32,8 +33,10 @@ und festgelegte Claims bleiben wörtlich stehen. Ändere sie nur, wenn der Nutze
 das ausdrücklich verlangt.
 
 Die Regeln stützen sich auf die deutsche Stilkunde (Wolf Schneider), das
-Hamburger Verständlichkeitsmodell und die Normen für Einfache Sprache
-(DIN ISO 24495-1, DIN 8581-1).
+Hamburger Verständlichkeitsmodell, den Hohenheimer Verständlichkeitsindex, die
+Normen für Einfache Sprache (DIN ISO 24495-1, DIN 8581-1), Lehrbücher des
+praktischen Journalismus und öffentliche Regelsammlungen gegen KI-Stil. Die
+Belege stehen in `QUELLEN.md`.
 
 ## Vor dem Schreiben
 
@@ -47,7 +50,9 @@ mit Formulierungen.
 
 Das Wichtigste steht vorn: Ergebnis, Empfehlung oder Bitte kommen vor der
 Herleitung. Jeder Absatz behandelt einen Gedanken, und sein erster Satz sagt,
-welchen.
+welchen. Der Leser erkennt, wie ein Absatz am vorigen hängt: als Folge,
+Gegensatz, Bedingung oder Beispiel. Fehlt die Verbindung, fehlt meist ein
+Gedanke und kein Überleitungswort.
 
 ## Modi
 
@@ -64,6 +69,11 @@ Superlative. Evidenzmarker stehen in solchen Texten nie.
 Satz enthält eine Handlung. Die Bedingung steht vor der Handlung („Wenn alle
 Schnittstellen geprüft sind, starte die Migration.“). Jede Voraussetzung wird
 genannt. Nummerierte Schritte sind hier die richtige Form.
+
+**Fachartikel** gilt für Erfahrungsberichte, Praxis- und Hintergrundartikel in
+Fachmagazinen (zum Beispiel heise Developer, iX, Computerwoche). Er hat eigene
+Regeln für Einstieg, These, Überschriften und Belege, siehe Abschnitt
+„Fachartikel und Erfahrungsberichte“. Alle übrigen Regeln gelten weiter.
 
 Wenn der Modus unklar ist und die Wahl den Text deutlich verändert, frage nach.
 
@@ -83,6 +93,11 @@ Dasselbe gilt für Streckverben: „entscheiden“ statt „eine Entscheidung
 treffen“, „anwenden“ statt „zur Anwendung bringen“, „prüfen“ statt „einer
 Prüfung unterziehen“. Substantive auf -ung sind nicht verboten. „Migration“
 und „Wartung“ sind Fachwörter und bleiben.
+
+Ebenso leer sind gespreizte Ersatzformen für „ist“ und „hat“: „fungiert als“,
+„dient als“, „stellt … dar“, „verfügt über“, „zeichnet sich durch … aus“.
+„Das Gateway ist der einzige Eingang“ statt „Das Gateway fungiert als
+zentraler Eingangspunkt“.
 
 Löse auch Ketten auf. Aus „die Verbesserung der Qualität der Pflege der
 Inhalte“ wird „Redaktionen pflegen die Inhalte leichter“, sofern die Quelle das
@@ -120,12 +135,17 @@ Nebensätzen stecken, und mehr als zwei Nebensätze pro Satz.
 
 Die meisten Sätze haben 10 bis 20 Wörter. Ein Satz mit 25 Wörtern ist in
 Ordnung, wenn er eine Aussage mit ihrer Begründung trägt. Komposita zählen als
-ein Wort.
+ein Wort. Der Hohenheimer Verständlichkeitsindex wertet den Anteil der Sätze
+über 20 Wörter und der Wörter über sechs Buchstaben als Hürde. Lange Wörter
+sollen also selten sein, und Komposita aus drei und mehr Gliedern löst du auf:
+„Pläne für das Hochwasserrisiko“ statt „Hochwasserrisikomanagementpläne“.
 
 Zerhacke Sätze nicht mechanisch. Eine Reihe sehr kurzer Sätze liest sich wie
 ein Telegramm und verliert die Verbindung zwischen den Aussagen. Wenn zwei
 kurze Sätze durch „weil“, „deshalb“, „aber“ oder „damit“ zusammengehören,
-verbinde sie. Satzlängen dürfen wechseln, wie sie beim Sprechen wechseln.
+verbinde sie. Satzlängen dürfen wechseln, wie sie beim Sprechen wechseln, und
+Satzanfänge auch: Drei Sätze hintereinander mit demselben Subjekt am Anfang
+klingen nach Vorlage.
 
 ### Konkrete Wörter
 
@@ -136,7 +156,8 @@ melde die Lücke dem Nutzer.
 Diese Wörter sagen allein nichts und brauchen eine Erklärung im selben Absatz:
 ganzheitlich, holistisch, nachhaltig, innovativ, maßgeschneidert,
 zukunftssicher, leistungsstark, nahtlos, strategisch, skalierbar, effizient,
-agil, flexibel, partnerschaftlich, End-to-End, State of the Art. Steht die
+agil, flexibel, robust, maßgeblich, vielschichtig, spannend, KI-gestützt,
+partnerschaftlich, End-to-End, State of the Art. Steht die
 Erklärung da, ist das Wort meist überflüssig.
 
 > Statt: „Wir bieten eine ganzheitliche Lösung.“
@@ -145,7 +166,9 @@ Erklärung da, ist das Wort meist überflüssig.
 
 Prüfe jedes Adjektiv und jedes Adverb. Es bleibt, wenn es unterscheidet
 („der schriftliche Vertrag“). Es geht, wenn es nur schmückt oder verstärkt
-(„wichtige Meilensteine“, „sehr“, „absolut“, „wirklich“, „äußerst“). Streiche
+(„wichtige Meilensteine“, „sehr“, „absolut“, „wirklich“, „tatsächlich“,
+„äußerst“). Absolute wie „immer“, „nie“, „alle“ und „völlig“ stehen nur, wenn
+sie stimmen. Streiche
 Füllwörter wie „grundsätzlich“, „im Rahmen von“, „im Bereich“, „hinsichtlich“,
 „letztendlich“ und „sozusagen“, wenn der Satz ohne sie dasselbe sagt.
 
@@ -160,14 +183,16 @@ Go-Live“). Danach genügt die Abkürzung.
 Übersetzte englische Redewendungen fallen deutschen Lesern auf. Vermeide „am
 Ende des Tages“, „auf das nächste Level heben“, „in ein Thema eintauchen“,
 „Hier kommt X ins Spiel“, „die Reise des Kunden“, „in der Landschaft der …“,
-„Potenziale freisetzen“, „Game-Changer“ und „Mehrwert liefern“. Sage, was
-gemeint ist.
+„Potenziale freisetzen“, „Game-Changer“, „ein wichtiger Schritt in Richtung“,
+„Mehrwert liefern“ und „Zeugnis ablegen von“. Sage, was gemeint ist.
 
 ### Ein Begriff pro Bedeutung
 
 Wer für dieselbe Sache zwei Wörter benutzt, lässt den Leser zwei Sachen
 vermuten. Wiederhole deshalb den Begriff. Die Regel aus dem Schulaufsatz,
-Wiederholungen zu vermeiden, gilt in Geschäftstexten nicht.
+Wiederholungen zu vermeiden, gilt in Geschäfts- und Fachtexten nicht.
+Sprachmodelle wechseln besonders gern die Synonyme („der Agent“, „das
+System“, „die KI-Instanz“ für dieselbe Sache).
 
 | Bevorzugt | Nur verwenden, wenn wirklich etwas anderes gemeint ist |
 |---|---|
@@ -182,7 +207,9 @@ Wiederholungen zu vermeiden, gilt in Geschäftstexten nicht.
 
 Schreibe aktiv und nenne den Handelnden: „Redaktionen nutzen die Plattform“
 statt „Die Plattform wird von den Redaktionen genutzt“. Passiv ist richtig,
-wenn der Handelnde unbekannt oder unwichtig ist.
+wenn der Handelnde unbekannt oder unwichtig ist. Ein Abstraktum ist kein
+Handelnder: „Die Daten zeigen uns“ oder „Die Strategie verlangt“ verdeckt, wer
+etwas gemessen oder entschieden hat.
 
 Lege die Sprecherrolle einmal fest und halte sie. Ein Text spricht entweder
 als „wir“ oder nennt das Unternehmen beim Namen. Dasselbe gilt für die Anrede:
@@ -223,7 +250,11 @@ Konstruktionen wie „schafft die Grundlage für“ und „ermöglicht es Untern
 verschleiern, wer was tut. Nenne die Handlung.
 
 Zahlen, Anteile, Referenzen und Kundennamen stammen aus der Vorlage oder vom
-Nutzer. Erfinde keine und runde keine um.
+Nutzer. Erfinde keine und runde keine um. Eine Quelle bleibt eine Quelle:
+„Experten zufolge“, „Studien zeigen“ oder „Beobachter sehen“ ohne Namen machen
+aus einer Fundstelle oder gar keiner eine Mehrheit. Nenne die Quelle oder
+streiche die Zuschreibung. Fülle auch keine Lücke mit „dürfte“ oder
+„vermutlich“, wenn die Vorlage zu dem Punkt nichts sagt.
 
 ## Muster, die nach Textgenerator klingen
 
@@ -233,29 +264,46 @@ nächstliegende Muster. Aus einem Gedankenstrich darf zum Beispiel keine
 Doppelpunkt-Pointe werden.
 
 **Scheinkontrast.** „Nicht nur X, sondern auch Y“, „Es geht nicht um X, es
-geht um Y“, „mehr als nur ein X“, „statt sich auf X zu verlassen“. Der Satz
-widerlegt etwas, das niemand behauptet hat. Sage direkt, was gilt. Ein echter
-Gegensatz aus der Vorlage bleibt.
+geht um Y“, „mehr als nur ein X“, „statt sich auf X zu verlassen“, „Das heißt
+nicht, dass …“. Der Satz widerlegt etwas, das niemand behauptet hat. Sage
+direkt, was gilt. Ein echter Gegensatz aus der Vorlage bleibt.
 
 **Behauptete Bedeutung.** „spielt eine zentrale Rolle“, „ist von
 entscheidender Bedeutung“, „Das ist wichtig, weil …“, „ein integraler
 Bestandteil“. Nenne die Folge, dann muss niemand die Bedeutung behaupten.
+Dazu gehört der angehängte Deutungsschwanz: „…, was die Bedeutung von X
+unterstreicht“, „…, wodurch Vertrauen gestärkt wird“. Streiche ihn oder mache
+aus der Folge einen eigenen Satz mit Beleg.
 
 **Ankündigung und Rahmung.** „In der heutigen digitalen Welt“, „In Zeiten
-von“, „Im Folgenden betrachten wir“, „Schauen wir uns an“, „Zusammenfassend
-lässt sich sagen“, „Kurz gesagt“, „Es bleibt festzuhalten“. Der Text beginnt
-mit der Aussage und endet, wenn alles gesagt ist. Ein Absatz braucht keinen
-Schlusssatz, der ihn als Merksatz wiederholt.
+von“, „Im Folgenden betrachten wir“, „Schauen wir uns an“, „Die folgende
+Tabelle zeigt“, „Zusammenfassend lässt sich sagen“, „Kurz gesagt“, „Es bleibt
+festzuhalten“. Der Text beginnt mit der Aussage und endet, wenn alles gesagt
+ist. Ein Abschnitt wiederholt nicht seine Überschrift im ersten Satz, und ein
+Absatz braucht keinen Schlusssatz, der ihn als Merksatz wiederholt.
+
+**Floskelhafter Ausblick.** „Trotz dieser Herausforderungen …“, „Es bleibt
+spannend“, „Die Zukunft wird zeigen“, „Man darf gespannt sein“. Ein Schluss
+nennt, was sich konkret geändert hat oder was als Nächstes ansteht.
 
 **Reihen ohne Grund.** Drei Substantive oder drei Adjektive hintereinander,
 weil drei gut klingt („schnell, sicher und zuverlässig“), oder Paare aus
 Reflex („klar und verständlich“). Eine Aufzählung nennt so viele Glieder, wie
-es gibt, und jedes muss etwas Eigenes bedeuten.
+es gibt, und jedes muss etwas Eigenes bedeuten. Auch „von X bis hin zu Y“ ist
+nur richtig, wenn X und Y die Enden einer echten Skala sind.
+
+**Überleitungsketten.** „Darüber hinaus“, „Zudem“, „Des Weiteren“, „Ferner“
+am Anfang von Satz um Satz. Ein einzelnes „zudem“ ist normales Deutsch. Wenn
+jeder Satz eines braucht, fehlt die Verbindung im Inhalt.
 
 **Inszenierung.** Frage mit sofortiger Antwort („Das Ergebnis? Weniger
 Aufwand.“), Pointe nach Doppelpunkt („Die Lösung: ein integriertes Team.“),
-Satzfetzen in Serie („Kein Chaos. Keine Wartezeit. Nur Ergebnisse.“). Schreibe
-einen vollständigen Satz.
+Satzfetzen in Serie („Kein Chaos. Keine Wartezeit. Nur Ergebnisse.“),
+Scheinweisheit („Im Kern geht es um …“, „Die eigentliche Frage ist …“) und
+erzählte Offenheit („Ehrlich gesagt“, „Was mich am meisten überrascht hat“).
+Ein zugespitzter Satz bleibt nur, wenn er einen Mechanismus nennt („Jeder
+Agent darf nur die Dateien seines Tickets ändern“ statt „Kontrolle ist
+alles“). Sonst schreibe einen vollständigen, sachlichen Satz.
 
 **Gedankenstrich als Einschub.** Verwende Komma, Punkt oder Klammer. Der
 Bis-Strich in Spannen („12–20 Wörter“) bleibt.
@@ -271,6 +319,16 @@ Inhalt. Ein Abschnitt mit einer Aussage ist ein Satz lang.
 **Ansprache des Lesers ohne Anlass.** „Stellen Sie sich vor“, „Vielleicht
 fragen Sie sich“, „Lassen Sie uns gemeinsam“. In Sales-Texten ist die direkte
 Anrede erlaubt, wenn sie eine konkrete Situation des Kunden beschreibt.
+
+**Chatbot-Reste.** „Gute Frage!“, „Gerne helfe ich“, „Ich hoffe, das hilft“,
+„Stand meines Wissens“, „nach den verfügbaren Informationen“, Platzhalter wie
+„[Name]“ und Tracking-Anhänge wie `utm_source=chatgpt.com` in Links. Sie
+gehören nie in einen Text, der weitergegeben wird.
+
+Überkorrigiere nicht. Korrekte Grammatik, ein förmlicher Ton und einzelne
+Wörter wie „zudem“ oder „entscheidend“ sind kein KI-Merkmal. Ein Text wird
+nicht glaubwürdiger, weil er Fehler oder Umgangssprache enthält. Es zählen die
+Muster, nicht einzelne Wörter.
 
 ## Listen, Tabellen, Hervorhebungen
 
@@ -294,6 +352,65 @@ Template-Überschriften bleiben stehen. Ergänze bei Bedarf eine erklärende
 Unterzeile.
 
 Wenn die Vorlage Struktur, Tabellen und Links hat, bleiben sie erhalten.
+
+Anführungszeichen sind deutsch („…“ oder »…«) und im ganzen Text einheitlich.
+
+## Fachartikel und Erfahrungsberichte
+
+Ein Fachartikel muss zweimal überzeugen: die Redaktion, die ihn annimmt, und
+den Leser, der nach dem Vorspann entscheidet, ob er weiterliest. Leser eines
+Fachmagazins sind Fachleute, aber nicht der Autor. Sie kennen die Technik,
+nicht das Projekt.
+
+**Vor dem Schreiben** stehen These, Zielgruppe und Nutzen fest: Was weiß der
+Leser nach dem Artikel, das er vorher nicht wusste, und was kann er damit tun?
+Ein Artikel beantwortet eine Frage vollständig. Zwei Fragen sind zwei Artikel.
+
+**Überschrift und Vorspann** müssen allein verständlich sein, denn viele Leser
+sehen nur sie (auf der Startseite, im Newsletter, in Suchergebnissen). Die
+Überschrift ist konkret und hat möglichst ein Verb. Ein Wortspiel ist nur
+erlaubt, wenn der Inhalt trotzdem erkennbar bleibt. Der Vorspann sagt in zwei
+bis drei Sätzen, worum es geht, welche These der Artikel vertritt und was der
+Leser davon hat.
+
+**Der Einstieg** beginnt mit einer konkreten Szene oder einem Problem aus der
+Praxis: ein Fehler, eine Zahl, eine Entscheidung, die anstand. Nach Wolf
+Schneider entscheidet der Leser in den ersten etwa 40 Wörtern, ob er bleibt.
+Die Szene muss echt sein und aus der Vorlage stammen. Erfinde keine. Die These
+folgt spätestens im zweiten Absatz. Allgemeine Zeitdiagnosen („Künstliche
+Intelligenz verändert die Softwareentwicklung“) sind kein Einstieg.
+
+**Zwischenüberschriften** wecken Interesse und sagen trotzdem, was im
+Abschnitt steht. Eine Behauptung oder Frage aus dem Abschnitt ist besser als
+ein Schlagwort („Warum der Review-Agent die meisten Fehler fand“ statt
+„Review-Prozess“).
+
+**Belege.** Jede Zahl nennt ihre Grundlage: Zeitraum, Menge, Werkzeug und
+Version, Messmethode. „In 14 Wochen und 230 Pull Requests“ statt „in der
+Praxis“. Fremde Zahlen tragen ihre Quelle im Satz oder als Link. Eigene
+Erfahrung ist ein Beleg für einen Fall, nicht für die Branche. Formuliere
+entsprechend.
+
+**Grenzen.** Ein Erfahrungsbericht nennt, was nicht funktioniert hat, was er
+nicht gemessen hat und für welche Umgebung er nicht gilt. Das gehört in den
+Text, nicht nur in einen Schlussabsatz.
+
+**Sprecherrolle.** Lege einmal fest, wer spricht: „ich“ für persönliche
+Erfahrung, „wir“ für ein benanntes Team. Wechsle nicht. „Man“ und Passiv ohne
+Handelnden verwischen, wer entschieden hat. Der Leser wird nicht geduzt, außer
+das Magazin tut es.
+
+**Wechsel von Fall und Erklärung.** Abstrakte Aussagen werden an einem Fall
+oder Beispiel greifbar. Wechsle zwischen Szene, Erklärung und Beleg, statt
+erst alle Erfahrungen und dann alle Erkenntnisse zu bringen. Code, Konfiguration
+und Befehle stehen in Listings, nicht im Fließtext.
+
+**Zitate** stehen nur, wenn der Wortlaut etwas hinzufügt, das eine
+Umschreibung verlieren würde. Fakten gehören nicht in Anführungszeichen.
+
+**Der Schluss** kehrt zum Einstieg zurück oder sagt, was der Leser morgen
+anders machen kann. Er fasst den Artikel nicht noch einmal zusammen und endet
+ohne Merksatz und ohne floskelhaften Ausblick.
 
 ## Canvas-Dokumente (VPC und BMC)
 
@@ -383,3 +500,9 @@ allen Stellen überein? Steht ein Muster aus dem Abschnitt „Muster, die nach
 Textgenerator klingen“ im Text? Würde ein Kollege den Satz so sagen, wenn er
 die Sache am Tisch erklärt? Ist gegenüber der Vorlage etwas verloren gegangen
 oder dazugekommen?
+
+Bei längeren Texten hilft ein Lesertest: Schreibe die fünf Fragen auf, die ein
+Leser ohne Vorwissen nach der Überschrift stellen würde, und prüfe, ob der Text
+jede beantwortet. Wenn möglich, lässt du den Text von einer zweiten Instanz
+ohne Kontext lesen und zusammenfassen. Weicht die Zusammenfassung von der
+Kernaussage ab, liegt das Problem im Text.
