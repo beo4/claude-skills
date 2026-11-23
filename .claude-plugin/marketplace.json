@@ -10,11 +10,12 @@
   "plugins": [
     {
       "name": "german-business-writing",
-      "description": "Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem Deutsch ohne Floskeln und ohne KI-Muster.",
+      "description": "Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem Deutsch ohne Floskeln und ohne KI-Muster, dazu Fachartikel für Fachmagazine.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/german-plain-business-writing"
+        "./skills/german-plain-business-writing",
+        "./skills/german-tech-article-writing"
       ]
     }
   ]
