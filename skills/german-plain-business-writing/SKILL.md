@@ -3,11 +3,11 @@ name: german-plain-business-writing
 description: >
   Schreibt und überarbeitet deutsche Geschäftstexte in klarem, konkretem
   Deutsch ohne Floskeln und ohne KI-Muster: Strategie, Business-Modelle,
-  BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails sowie
-  Fachartikel und Erfahrungsberichte für Fachmagazine. Verwenden, wenn ein
-  deutscher Business- oder Fachtext geschrieben, gekürzt oder auf Bla-bla,
-  Widersprüche und KI-Stil geprüft werden soll, auch wenn der Skill nicht
-  genannt wird.
+  BMC/VPC, Entscheidungsvorlagen, Website- und Sales-Texte, E-Mails.
+  Verwenden, wenn ein deutscher Business-Text geschrieben, gekürzt oder auf
+  Bla-bla, Widersprüche und KI-Stil geprüft werden soll, auch wenn der Skill
+  nicht genannt wird. Für Fachartikel in Fachmagazinen gibt es den Skill
+  german-tech-article-writing, der auf diesem aufbaut.
 ---
 
 # Klares Geschäftsdeutsch
@@ -16,8 +16,8 @@ description: >
 
 Der Skill schreibt und überarbeitet deutsche Geschäftstexte: Strategie- und
 Portfolio-Dokumente, Business-Modelle, Canvases, ICPs, Entscheidungsvorlagen,
-Website- und Vertriebstexte, E-Mails an Kunden und Kollegen, technische
-Dokumentation für den Betrieb und Fachartikel für Fachmagazine.
+Website- und Vertriebstexte, E-Mails an Kunden und Kollegen sowie technische
+Dokumentation für den Betrieb.
 
 Maßstab ist ein Leser, der fachlich mitdenkt und wenig Zeit hat. Er soll den
 Text beim ersten Lesen verstehen, ihm glauben können und wissen, was daraus
@@ -34,8 +34,8 @@ das ausdrücklich verlangt.
 
 Die Regeln stützen sich auf die deutsche Stilkunde (Wolf Schneider), das
 Hamburger Verständlichkeitsmodell, den Hohenheimer Verständlichkeitsindex, die
-Normen für Einfache Sprache (DIN ISO 24495-1, DIN 8581-1), Lehrbücher des
-praktischen Journalismus und öffentliche Regelsammlungen gegen KI-Stil. Die
+Normen für Einfache Sprache (DIN ISO 24495-1, DIN 8581-1) und öffentliche
+Regelsammlungen gegen KI-Stil. Die
 Belege stehen in `QUELLEN.md`.
 
 ## Vor dem Schreiben
@@ -70,10 +70,8 @@ Satz enthält eine Handlung. Die Bedingung steht vor der Handlung („Wenn alle
 Schnittstellen geprüft sind, starte die Migration.“). Jede Voraussetzung wird
 genannt. Nummerierte Schritte sind hier die richtige Form.
 
-**Fachartikel** gilt für Erfahrungsberichte, Praxis- und Hintergrundartikel in
-Fachmagazinen (zum Beispiel heise Developer, iX, Computerwoche). Er hat eigene
-Regeln für Einstieg, These, Überschriften und Belege, siehe Abschnitt
-„Fachartikel und Erfahrungsberichte“. Alle übrigen Regeln gelten weiter.
+Für Fachartikel und Erfahrungsberichte in Fachmagazinen gilt zusätzlich der
+Skill german-tech-article-writing.
 
 Wenn der Modus unklar ist und die Wahl den Text deutlich verändert, frage nach.
 
@@ -354,63 +352,6 @@ Unterzeile.
 Wenn die Vorlage Struktur, Tabellen und Links hat, bleiben sie erhalten.
 
 Anführungszeichen sind deutsch („…“ oder »…«) und im ganzen Text einheitlich.
-
-## Fachartikel und Erfahrungsberichte
-
-Ein Fachartikel muss zweimal überzeugen: die Redaktion, die ihn annimmt, und
-den Leser, der nach dem Vorspann entscheidet, ob er weiterliest. Leser eines
-Fachmagazins sind Fachleute, aber nicht der Autor. Sie kennen die Technik,
-nicht das Projekt.
-
-**Vor dem Schreiben** stehen These, Zielgruppe und Nutzen fest: Was weiß der
-Leser nach dem Artikel, das er vorher nicht wusste, und was kann er damit tun?
-Ein Artikel beantwortet eine Frage vollständig. Zwei Fragen sind zwei Artikel.
-
-**Überschrift und Vorspann** müssen allein verständlich sein, denn viele Leser
-sehen nur sie (auf der Startseite, im Newsletter, in Suchergebnissen). Die
-Überschrift ist konkret und hat möglichst ein Verb. Ein Wortspiel ist nur
-erlaubt, wenn der Inhalt trotzdem erkennbar bleibt. Der Vorspann sagt in zwei
-bis drei Sätzen, worum es geht, welche These der Artikel vertritt und was der
-Leser davon hat.
-
-**Der Einstieg** beginnt mit einer konkreten Szene oder einem Problem aus der
-Praxis: ein Fehler, eine Zahl, eine Entscheidung, die anstand. Nach Wolf
-Schneider entscheidet der Leser in den ersten etwa 40 Wörtern, ob er bleibt.
-Die Szene muss echt sein und aus der Vorlage stammen. Erfinde keine. Die These
-folgt spätestens im zweiten Absatz. Allgemeine Zeitdiagnosen („Künstliche
-Intelligenz verändert die Softwareentwicklung“) sind kein Einstieg.
-
-**Zwischenüberschriften** wecken Interesse und sagen trotzdem, was im
-Abschnitt steht. Eine Behauptung oder Frage aus dem Abschnitt ist besser als
-ein Schlagwort („Warum der Review-Agent die meisten Fehler fand“ statt
-„Review-Prozess“).
-
-**Belege.** Jede Zahl nennt ihre Grundlage: Zeitraum, Menge, Werkzeug und
-Version, Messmethode. „In 14 Wochen und 230 Pull Requests“ statt „in der
-Praxis“. Fremde Zahlen tragen ihre Quelle im Satz oder als Link. Eigene
-Erfahrung ist ein Beleg für einen Fall, nicht für die Branche. Formuliere
-entsprechend.
-
-**Grenzen.** Ein Erfahrungsbericht nennt, was nicht funktioniert hat, was er
-nicht gemessen hat und für welche Umgebung er nicht gilt. Das gehört in den
-Text, nicht nur in einen Schlussabsatz.
-
-**Sprecherrolle.** Lege einmal fest, wer spricht: „ich“ für persönliche
-Erfahrung, „wir“ für ein benanntes Team. Wechsle nicht. „Man“ und Passiv ohne
-Handelnden verwischen, wer entschieden hat. Der Leser wird nicht geduzt, außer
-das Magazin tut es.
-
-**Wechsel von Fall und Erklärung.** Abstrakte Aussagen werden an einem Fall
-oder Beispiel greifbar. Wechsle zwischen Szene, Erklärung und Beleg, statt
-erst alle Erfahrungen und dann alle Erkenntnisse zu bringen. Code, Konfiguration
-und Befehle stehen in Listings, nicht im Fließtext.
-
-**Zitate** stehen nur, wenn der Wortlaut etwas hinzufügt, das eine
-Umschreibung verlieren würde. Fakten gehören nicht in Anführungszeichen.
-
-**Der Schluss** kehrt zum Einstieg zurück oder sagt, was der Leser morgen
-anders machen kann. Er fasst den Artikel nicht noch einmal zusammen und endet
-ohne Merksatz und ohne floskelhaften Ausblick.
 
 ## Canvas-Dokumente (VPC und BMC)
 
